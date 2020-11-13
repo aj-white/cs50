@@ -1,6 +1,9 @@
 #include <stdio.h>
 
 int get_length(long n);
+int get_first_sum(long n);
+int get_second_sum(long n);
+
 
 int main(void)
 {
@@ -9,38 +12,11 @@ int main(void)
     scanf("%li", &cc_no);
 
     // First part of checksum
-    long start_digit = cc_no / 10;
-    int first_sum = 0;
-
-    while (start_digit > 0)
-    {
-        int digit = (start_digit % 10) * 2;
-        // Split numbers into rpoducts if over 10
-        if (digit > 1)
-        {
-            first_sum += (digit / 10) % 10;
-            first_sum += digit % 10;
-        }
-        else
-        {
-            first_sum += digit;
-        }
-        start_digit /= 100;
-    }
+    int first_sum = get_first_sum(cc_no);
 
     // Second part of checksum
-    int second_sum = 0;
-    // Use copy of credit card number to keep intact for later
-    long ccn_copy = cc_no;
+    int second_sum = get_second_sum(cc_no);
 
-    while (ccn_copy > 1)
-    {
-        int digit = ccn_copy % 10;
-        second_sum += digit;
-        ccn_copy /= 100;
-    }
-    //printf("first %i\n", first_sum);
-    //printf("second: %i\n", second_sum);
     //Final validation
     int checksum = first_sum + second_sum;
     if (checksum % 10 == 0)
@@ -86,4 +62,40 @@ int get_length(long n)
         length += 1;
     }
     return length;
+}
+
+int get_first_sum(long n)
+{
+    long start_digit = n / 10;
+    int sum = 0;
+
+    while (start_digit > 0)
+    {
+        int digit = (start_digit % 10) * 2;
+        // Split numbers into rpoducts if over 10
+        if (digit > 1)
+        {
+            sum += (digit / 10) % 10;
+            sum += digit % 10;
+        }
+        else
+        {
+            sum += digit;
+        }
+        start_digit /= 100;
+    }
+    return sum;
+}
+
+int get_second_sum(long n)
+{
+    int sum = 0;
+    while (n > 1)
+    {
+        int digit = n % 10;
+        sum += digit;
+        n /= 100;
+    }
+    return sum;
+
 }
