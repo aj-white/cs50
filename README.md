@@ -7,7 +7,7 @@ Not using the cs50IDE, hence no access to get_string(), get_int() etc. I have im
 This repository conatins my solutions to the problem sets from pset1 onwards.
 
 - Problem Set 1 2020 -> C
-  - Mario less
-  - Mario more
-  - Cash
-  - Credit
+  - [Mario less](./problem_set_1/mario/mario_less.c)
+  - [Mario more](./problem_set_1/mario/mario_more.c)
+  - [Cash](./problem_set_1/cash/cash.c)
+  - [Credit](./problem_set_1//credit/credit.c)
