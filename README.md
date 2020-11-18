@@ -11,3 +11,7 @@ This repository conatins my solutions to the problem sets from pset1 onwards.
   - [Mario more](./problem_set_1/mario/mario_more.c)
   - [Cash](./problem_set_1/cash/cash.c)
   - [Credit](./problem_set_1//credit/credit.c)
+  
+- Problem Set 2 2020 -> C
+  - [Readability](./problem_set_2/readability.c)
+  
