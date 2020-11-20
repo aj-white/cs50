@@ -16,3 +16,9 @@ This repository conatins my solutions to the problem sets from pset1 onwards.
   - [Readability](./problem_set_2/readability.c)
   - [Caesar](./problem_set_2/caesar.c)
   - [Substitution](./problem_set_2/substitution.c)
+
+- Lecture 3 (Algorthims)
+  - As a practice prior to problem sets, I've turned the pseudocode for each algorithm in actual C code
+  - [Linear search](./Lecture_3_algorithms/linear_search.c)
+  - [Binary search](./Lecture_3_algorithms/binary_search.c)
+
