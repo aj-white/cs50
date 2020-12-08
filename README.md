@@ -25,5 +25,5 @@ This repository conatins my solutions to the problem sets from pset1 onwards.
 - Problem Set 3 2020 -> C
  - [Plurality](./problem_set_3/plurality.c)
  - [Runoff](./problem_set_3/runoff.c)
- - [Tideman](./problem_set_3/tideman.c
+ - [Tideman](./problem_set_3/tideman.c)
 
