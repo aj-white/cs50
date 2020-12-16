@@ -27,3 +27,7 @@ This repository conatins my solutions to the problem sets from pset1 onwards.
   - [Runoff](./problem_set_3/runoff.c)
   - [Tideman](./problem_set_3/tideman.c)
 
+- Problem Set 4 2020 -> C
+  - [filter_less](./problem_set_4/filter_less/helpers.c)
+  - [filter_more](./problem_set_4/filter_more/helpers.c) *Only contains code for edges function*
+  - [recover](./problem_set_4/recover/recover.c)
