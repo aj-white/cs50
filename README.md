@@ -31,3 +31,6 @@ This repository conatins my solutions to the problem sets from pset1 onwards.
   - [filter_less](./problem_set_4/filter_less/helpers.c)
   - [filter_more](./problem_set_4/filter_more/helpers.c) *Only contains code for edges function*
   - [recover](./problem_set_4/recover/recover.c)
+
+- Problem Set 6 2021 -> Python
+  - [dna](./problem_set_6/dna.py)
